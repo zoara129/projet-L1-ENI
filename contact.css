@@ -1,0 +1,461 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-decoration: none;
+    outline: none;
+    transition: .5s linear;
+}
+html 
+{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+section
+{
+    padding: 20px 9%;
+}
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    padding: 20px 9%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px;
+    z-index: 1000;
+    width: 100%;
+}
+header .logo
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo span{
+    color: rgb(190, 18, 18);
+}
+.logo:hover
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(190, 18, 18);
+}
+
+
+/* navigation */
+ .navbar a{
+    font-size: 20px;
+    padding: 0 15px;
+    color: #fff;
+}
+ .navbar a:hover 
+{
+    color: rgb(190, 18, 18);
+    transition: .2s linear;
+}
+ .navbar a:focus
+{
+    color: rgb(190, 18, 18);
+}
+.icons a
+{
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+ .icons  a:hover
+{
+   color: rgb(190, 18, 18);
+   transition: .2s linear;
+}
+ .icons a:focus
+{
+    color: rgb(190, 18, 18);
+}
+
+/* menu */
+header #toggler 
+{
+    display: none;
+}
+header .fa-bars 
+{
+    font-size: 30px;
+    color: #fff;
+    border-radius: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+.box-container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background: #eee;
+    height: 60vh;
+    width: 100%;
+    gap: 10px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/fb.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.box-container h5{
+    font-size: 30px;
+    color: rgb(190, 18, 18);
+}
+.box-container a{
+    font-size: 20px;
+    color: #fff;
+    background: rgb(190, 18, 18);
+    padding: 6px 12px 6px 12px;
+}
+.box-container a:hover{
+   background: transparent;
+   border: 1px solid rgb(190, 18, 18);
+   box-shadow:  0 0 25px rgb(190, 18, 18);
+}
+
+
+.contact{
+    padding-bottom: 50px;
+}
+.contact .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 50px;
+}
+.contact .container .box{
+    flex:  1 1 230px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #eee;
+    padding: 21px 21px 21px 21px;
+    cursor: pointer;
+}
+.contact .container .box:hover{
+    background: rgb(190, 18, 18);
+}
+.contact .container .content{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contact .container .link a{
+    flex-direction: column;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 2%;
+}
+.contact .container .box .link a:hover{ 
+    color: #fff;
+}
+.contact .container .box .content{
+    margin-bottom: 15px;
+}
+
+.message{
+    background: #000;
+}
+.message .contexte{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+.message .contexte h1{
+    color: rgb(190, 18, 18);
+    font-size: 24px;
+    font-weight: bold;
+}
+.message .contexte p{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+.form{
+    background: #fff;
+}
+.form .entier .form-input1 .contain input{
+    width: 100%;
+}
+.form .entier {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;;
+}
+.form .entier .form-input1 .contain{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.form .entier .form-input1{
+    border: 2px solid #eee;
+    padding: 30px 20px 30px 20px;
+    border-radius: 10px;
+    background: #eee;
+}
+.form .entier .form-input{
+    border: 1px solid black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 3px;
+}
+.form .entier .form-input1 .btn{
+    width: 100%;
+    margin-top: 2%;
+    cursor:  pointer;
+    border: none;
+    border-radius: 3px;
+    color: rgb(190, 18, 18);
+    background-color: #000;
+    padding: 7px 14px 8px 14px;
+}
+.form .entier .map{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #eee;
+}
+.form .entier .map .texte h2{
+    color: rgb(190, 18, 18);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 2%;
+}
+.form .entier .map .texte p{
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+.form .entier .map .image img{
+    width: 100%;
+}
+.form .entier .form-input1 textarea{
+    margin-top: 30px;
+    width: 100%;
+    height: 46vh;
+}
+
+.subscribe{
+    background: #000;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.subscribe .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.subscribe .content .text h3{
+   font-size: 24px;
+   font-weight: 500;
+   color: #fff;
+}
+.subscribe .content .sub input{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.subscribe .content .sub .btn{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background: rgb(190, 18, 18);
+    color: #fff;
+    cursor: pointer;
+}
+.subscribe .content .sub .btn:hover{
+    color: rgb(190, 18, 18);
+    background: #fff;
+}
+
+
+
+/* footer */
+.footer
+{
+    background: #eee;
+    padding-top: 3%;
+}
+.footer .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.footer .container .list{
+    flex:1 1 300px;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.footer .container .list h3{
+    color: rgb(190, 18, 18);
+    font-size: 18px;
+}
+.footer .container .list a{
+    color: #000;
+    font-size: 15px;
+    display: block;
+    padding: 5px 0;
+}
+.footer .container .list a:hover{
+    color: rgb(190, 18, 18);
+    text-decoration: underline;
+    transition: 1.5s;
+}
+.footer .container .list .help{
+    margin-right: 5%;
+}
+.footer .foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.footer .foot a{
+    font-size: 14px;
+}
+.footer .foot a:hover{
+    color: rgb(190, 18, 18);
+}
+hr{
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1500px) {
+    .form .entier form{
+        width: 100%;
+    }
+    .form .entier .map .image{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width:991px) {
+    html 
+    {
+        font-size: 60%;
+    }
+    header {
+        padding: 2rem;
+    }
+    section 
+    {
+        padding: 2rem;
+    }
+}
+@media (max-width:819px) {
+   
+    html .fa-bars{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #eee;
+        align-items: center;
+        text-align: center;
+        display: block;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        border-top: 2px solid #fff;
+    }
+    #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .navbar a 
+    {
+        margin: 10px;
+        padding: 10px;
+        display: block;
+        background: #fff;
+        color: #000;
+    }
+    html{
+        font-size: 60%;
+    }
+    .form .entier{
+        display: grid;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .subscribe .content {
+        display: grid;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media (max-width:508px) {
+    .subscribe .content .sub input{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:683px) {
+    .form .entier form{
+        width: 100%;
+    }
+    .form .entier .map .image{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width:400px) {
+    .head .logo{
+        font-size: 20px;
+        margin-top: 7px;
+    }
+}
+@media (max-width:345px) {
+      html {
+        font-size: 55%;
+    }
+    .head .logo
+    {
+        font-size: 17px;
+        margin-top: 7px;
+    }
+}
