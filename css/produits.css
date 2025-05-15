@@ -106,7 +106,7 @@ header .fa-bars
     padding: 20px 9%;
     margin-top: 70px;
     display: flex;
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/nike-swoosh-logo-10.jpg);
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/nike-swoosh-logo-10.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
