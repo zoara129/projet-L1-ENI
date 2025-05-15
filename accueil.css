@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'worksans';
+    src: url('static/WorkSans-Regular.ttf') format('truetype');
+}
 * 
 {
     margin: 0;
@@ -8,6 +12,7 @@
     text-decoration: none;
     outline: none;
     transition: .5s linear;
+    font-family: 'worksans', sans-serif;
 }
 html 
 {

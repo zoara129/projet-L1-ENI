@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'worksans';
+    src: url('static/WorkSans-Regular.ttf') format('truetype');
+}
 * 
 {
     margin: 0;
@@ -8,6 +12,7 @@
     text-decoration: none;
     outline: none;
     transition: .5s linear;
+    font-family: 'worksans', sans-serif;
 }
 html 
 {
@@ -163,7 +168,7 @@ header .fa-bars
     box-shadow: 0 0 10px rgb(190, 18, 18);
 }
 .home .lead .style-type {
-    color: rgb(190, 18, 18);
+    color: #000;
     font-size: 25px;
     font-weight: bolder;
 }
@@ -332,7 +337,6 @@ hr{
 
 
 @media (max-width:1500px) {
-   
     html .fa-list{
         display: block;
     }
