@@ -176,7 +176,7 @@ header .fa-bars
 }
 
 .message{
-    background: rgba(0, 0, 0, 0.7);
+    background: #fff;
 }
 .message .contexte{
     display: grid;
