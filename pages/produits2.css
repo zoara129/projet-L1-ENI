@@ -485,7 +485,6 @@ hr{
         font-size: 15px;
     }
 }
-
 @media (max-width:450px) {
     html {
         font-size: 60%;
@@ -495,9 +494,8 @@ hr{
         font-size: 22px;
         margin-top: 5px;
     }
-     .home .lead .compte .ak{
-        font-size: 9px;
-        margin-top: 15px;
+    .home .lead .compte .ak{
+        display: none;
     }
     .home .lead .style-type
     {
