@@ -133,7 +133,7 @@ header .fa-bars
 }
 .home .nav1 a:hover {
    color: rgb(190, 18, 18);
-   border-radius: 50px;
+   border-radius: 10px;
    background: #000;
 }
 .home .nav1 a:focus{
@@ -151,7 +151,7 @@ header .fa-bars
     font-size: 20px;
 }
 .home .lead .compte a{
-   border-radius: 50px;
+   border-radius: 10px;
    background: #000;
    padding: 10px 20px 10px 20px;
    color: #fff;

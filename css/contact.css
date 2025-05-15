@@ -124,6 +124,7 @@ header .fa-bars
     color: #fff;
     background: rgb(190, 18, 18);
     padding: 6px 12px 6px 12px;
+    border-radius: 10px;
 }
 .box-container a:hover{
    background: transparent;
@@ -175,7 +176,7 @@ header .fa-bars
 }
 
 .message{
-    background: #000;
+    background: rgba(0, 0, 0, 0.7);
 }
 .message .contexte{
     display: grid;
@@ -265,7 +266,7 @@ header .fa-bars
 }
 
 .subscribe{
-    background: #000;
+    background: rgba(0, 0, 0, 0.7);
     padding-bottom: 5%;
     padding-top: 5%;
 }
@@ -283,13 +284,13 @@ header .fa-bars
 .subscribe .content .sub input{
     border: none;
     padding: 10px 20px 10px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 18px;
 }
 .subscribe .content .sub .btn{
     padding: 10px 20px 10px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     font-size: 20px;
     background: rgb(190, 18, 18);
     color: #fff;

@@ -148,7 +148,7 @@ h6 {
 .home .content .btn {
     display: inline-block;
     margin-top: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
     background: rgb(190, 18, 18);
     box-shadow:  0 0 10px rgb(190, 18, 18);
     color: #fff;
@@ -217,8 +217,8 @@ h6 {
 .plus 
 {
     display: inline-block;
-    padding: 5px 20px 5px 20px;
-    border-radius: 40px;
+    padding: 7px 20px 7px 20px;
+    border-radius: 10px;
     background: #000;
     color: rgb(190, 18, 18);
     margin-top: 20px;
@@ -412,7 +412,7 @@ h6 {
 .other a{
    padding: 10px 20px 10px 20px;
    border: none;
-   border-radius: 20px;
+   border-radius: 10px;
    background: #000;
    color: rgb(190, 18, 18);
    font-size: 18px;

@@ -233,7 +233,7 @@ header .fa-bars
     background: black;
     padding: 10px 20px 10px 20px;
     border: 1px solid #000;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .about .container .content .btn{
     align-items: center;
@@ -241,7 +241,6 @@ header .fa-bars
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    
 }
 .about a:hover{
     color: #fff;
@@ -280,7 +279,7 @@ header .fa-bars
     color: #fff;
     background: rgb(190, 18, 18);
     padding: 10px 20px 10px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 20px;
     display: inline-block;
     margin-top: 20px;
@@ -427,7 +426,7 @@ h1{
 .style1{
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3); /* fond semi-transparent */
+    background: rgba(0, 0, 0, 0.3); 
     color: #fff;
     width: 100%;
     padding: 162px;
@@ -453,7 +452,7 @@ h1{
     background: black;
     padding: 10px 20px 10px 20px;
     border: 1px solid #000;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .style1 a:hover{
     color: #fff;
